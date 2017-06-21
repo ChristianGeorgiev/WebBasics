@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+/** {
+  margin: 0;
+  padding: 0;
+}*/
+
+
+body {
+  background: #294982;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+nav ul.nav-primary {
+  float: right;
+}
+
+nav img {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+ul.nav-primary li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 15px;
+}
+
+ul.nav-primary li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+ul.nav-primary li:last-of-type>a{
+   background: #43C4F0;
+   padding: 10px 15px 10px 15px;
+   border-radius: 10px;
+}
+
+.header-title {
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 50px;
+  font-weight: normal;
+  margin-top: 100px;
+}
+
+.header-subtitle {
+  color: #4C7192;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+div#button-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+div#button-container a {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: normal;
+  background: #43C4F0;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+}
+
+ul.header-services {
+  padding-left: 0;
+  margin-top: 130px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+li.service {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  text-align: left;
+  vertical-align: top;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+li.service:hover {
+  background: #43C4F0;
+}
+
+h2.service-title {
+ margin-left: 30px;
+ font-size: 30px;
+ font-weight: normal;
+}
+
+p.service-intro {
+  margin-top: 50px;
+}
+
+a.service-link {
+  margin-top: 30px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}

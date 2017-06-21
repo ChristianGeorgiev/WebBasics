@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background: #393939;
+  margin: 0 auto;
+}
+
+main {
+  background: url('images/food-image-bg.png') no-repeat center;
+  border-radius: 10px;
+  width: 1122px;
+  height: 684px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+main h1 {
+  width: 700px;
+  text-transform: uppercase;
+  float: right;
+  text-align: left;
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+ul.prep-steps {
+  width: 650px;
+  float: right;
+  margin-right: 40px;
+}
+
+ul.prep-steps li {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+div.recipies-info {
+  margin-left: 30px;
+}
+
+div.recipies-info p {
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+div.recipies-info p span {
+  color: #b5c640;
+}
+
+button.btn-primary {
+  margin-top: 20px;
+  margin-left: 270px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  background: none; 
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+button.btn-primary:hover {
+  background: #b5c640;
+  border: 2px solid #b5c640;
+}

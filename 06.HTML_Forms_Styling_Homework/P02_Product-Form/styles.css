@@ -10,16 +10,13 @@ h1, h2 {
   font-family: 'Anton', sans-serif;
 }
 
-div.image-container img{
+div.product-container img{
   float: left;
   width: 50%;
   background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-}
-
-div.image-container {
-
+  margin-right: 20px;
 }
 
 main {
@@ -28,5 +25,50 @@ main {
   margin: 0 auto;
   margin-top: 150px;
   border-radius: 30px;
-  box-shadow:  1px 5px #6afdc9;
+  box-shadow: 1px 5px #6afdc9;
+}
+
+form > h2 {
+  opacity: 0.7;
+}
+
+form > label {
+  display: block;
+  color: #696969;
+  margin-top: 5px;
+}
+
+input, select {
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 150px;
+  border: none;
+}
+
+form > button {
+  display: block;
+  margin-top: 15px;
+  background: none;
+  text-transform: uppercase;
+  border: 2px solid #6afdc9;
+  border-radius: 20px;
+  color: #6afdc9;
+  padding: 5px 10px;
+}
+
+form > button:hover {
+  background: #6afdc9;
+  color: #fff;
+  cursor: pointer;
+}
+
+form > select {
+  background: #6afdc9;
+  color: #fff;
+  width: 155px;
+}
+
+form > input {
+  border-bottom: 2px solid #6afdc9;
+  color: #6afdc9;
 }
